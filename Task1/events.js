@@ -6,7 +6,7 @@ const myEmitter = new EventEmitter();
 
 // Register an event listener
 myEmitter.on('myEvent', (arg) => {
-  // Log custom event received with an argument
+  
   console.log('Custom event received with argument:', arg);
 });
 
